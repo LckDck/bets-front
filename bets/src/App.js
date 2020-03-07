@@ -220,6 +220,7 @@ const App = () => {
               onChange={(item, index) => tryAddValue(item.id, field)}
               className='picker'
               value={list[bets[field]]}
+              isSearchable={false}
             />
           </div>
         </div>
