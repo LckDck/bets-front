@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "homepage": "https://lckdck.github.io/bets-front",
+  "short_name": "Bets",
+  "name": "Bets",
   "icons": [
     {
       "src": "favicon.ico",
