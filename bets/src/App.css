@@ -13,6 +13,34 @@
   }
 }
 
+.picker {
+  display: inline-block;
+  width: 90%;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30pt;
+}
+
+.button {
+  width: 120pt;
+  height: 30pt;
+  border-radius: 5pt;
+  border-color: transparent;
+  background-color: teal;
+  font-size: 12pt;
+  color: white;
+}
+
+.label {
+  display: inline-block;
+  width: 20pt;
+  text-align: center;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
