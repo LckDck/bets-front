@@ -35,6 +35,16 @@
   color: white;
 }
 
+.button-disabled {
+  width: 120pt;
+  height: 30pt;
+  border-radius: 5pt;
+  border-color: transparent;
+  background-color:#dddddd;
+  font-size: 12pt;
+  color: white;
+}
+
 .label {
   display: inline-block;
   width: 20pt;

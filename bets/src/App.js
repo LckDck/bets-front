@@ -1,6 +1,8 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { list } from './list';
+import copy from 'copy-to-clipboard';
 
 
 // import React, { Component } from 'react';
@@ -131,34 +133,101 @@ import './App.css';
 // export default Menu;
 import Select from 'react-select';
 
-const names = ["Маша", "Саша", "Даша"];
 const fields = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Q", "BL"];
+const values = {};
+
+const App = () => {
+  const [bets, setBets] = useState({});
+  const [fieldsWithError, setFieldsWithError] = useState([]);
+
+  const tryAddValue = (value, field) => {
+    let newBets = { ...bets }
+    newBets[field] = value;
+    setBets(newBets);
+    checkDuplicates(newBets);
+  }
+
+  const checkDuplicates = (list) => {
+    const errors = [];
+    const keys = Object.keys(list);
+
+    keys.forEach(key => {
+      keys.forEach(otherKey => {
+        if (key != otherKey
+          && key != 'Q'
+          && otherKey != 'Q'
+          && key != 'BL'
+          && otherKey != 'BL'
+          && list[key] !== ''
+          && list[key] == list[otherKey]
+        ) {
+          errors.push(key);
+        }
+      });
+    });
+    setFieldsWithError(errors)
+  }
 
 
-function App() {
+  const generateString = () => {
+    var str = '';
+    const keys = Object.keys(bets);
+    keys.forEach(key => {
+      if (str != '') {
+        str += '\n';
+      }
+      str += ((key == 'Q' || key == 'BL') ? `${ key }-${ list[bets[key]].value }` : list[bets[key]].value);
+    });
+    return str;
+  }
+
+  const checkEmpty = () => {
+    const moreErrors = [...fieldsWithError]
+    const keys = Object.keys(bets);
+    fields.forEach(key => {
+      if (typeof bets[key] === 'undefined') {
+        moreErrors.push(key)
+      }
+    });
+    setFieldsWithError(moreErrors);
+  }
+
+  useEffect(() => {
+
+  }, [bets])
+
+  const btnClick = () => {
+    checkDuplicates(bets);
+    checkEmpty(bets);
+    copy(generateString());
+  }
+
   return (
-    <form>
+    <div>
 
       {fields.map(field =>
-      <div>
-        <div style={{margin: 10, flexDirection: 'row', flex: 1, alignItems: 'flex-start', justifyContent: 'center'}}>
-          <label className='label'>{field}</label>
-          {/* <select className='picker' key={field}>
-        {names.map(item => <option key={item}>{item}</option>)}
-      </select> */}
-          <Select
-            options={[]}
-            placeholder={'Выберите гонщика'}
-            clearable={false}
-            className='picker'
-          />
-        </div>
+        <div>
+          <div style={{
+            margin: 10,
+            backgroundColor: fieldsWithError.indexOf(field) > -1 ? '#ff000055' : 'transparent',
+            borderRadius: 10,
+            flexDirection: 'row', flex: 1, alignItems: 'flex-start', justifyContent: 'center'
+          }}>
+            <label className='label'>{field}</label>
+            <Select
+              options={list}
+              placeholder={'Выберите гонщика'}
+              onChange={(item, index) => tryAddValue(item.id, field)}
+              className='picker'
+              value={list[bets[field]]}
+            />
+          </div>
         </div>
       )}
       <div className='button-container'>
-      <input className='button' type="submit" value="Отправить" />
+        <button className='button' type="submit" disabled={fieldsWithError.length > 0} onClick={btnClick}>Копировать</button>
       </div>
-    </form>
+    </div>
   );
 }
 
