@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "45a67c355c0c260f9274b5524781159c",
+    "revision": "e2a99cabfb51a3399e75983771353025",
     "url": "/bets-front/index.html"
   },
   {
-    "revision": "b419669a62f9d2ddf0a5",
-    "url": "/bets-front/static/css/main.92195384.chunk.css"
+    "revision": "601b3945fe637baa6856",
+    "url": "/bets-front/static/css/main.690d6882.chunk.css"
   },
   {
     "revision": "3f292676ba61ce0710cb",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bets-front/static/js/2.5b92cb6e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b419669a62f9d2ddf0a5",
-    "url": "/bets-front/static/js/main.73b5d2c3.chunk.js"
+    "revision": "601b3945fe637baa6856",
+    "url": "/bets-front/static/js/main.b73915d1.chunk.js"
   },
   {
     "revision": "0183b029fac8b874a4dd",

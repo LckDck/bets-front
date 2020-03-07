@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/bets-front/static/css/main.92195384.chunk.css",
-    "main.js": "/bets-front/static/js/main.73b5d2c3.chunk.js",
-    "main.js.map": "/bets-front/static/js/main.73b5d2c3.chunk.js.map",
+    "main.css": "/bets-front/static/css/main.690d6882.chunk.css",
+    "main.js": "/bets-front/static/js/main.b73915d1.chunk.js",
+    "main.js.map": "/bets-front/static/js/main.b73915d1.chunk.js.map",
     "runtime-main.js": "/bets-front/static/js/runtime-main.0c344ffd.js",
     "runtime-main.js.map": "/bets-front/static/js/runtime-main.0c344ffd.js.map",
     "static/js/2.5b92cb6e.chunk.js": "/bets-front/static/js/2.5b92cb6e.chunk.js",
     "static/js/2.5b92cb6e.chunk.js.map": "/bets-front/static/js/2.5b92cb6e.chunk.js.map",
     "index.html": "/bets-front/index.html",
-    "precache-manifest.7dd2bb7a964bd62a6cd7ab4fecec5270.js": "/bets-front/precache-manifest.7dd2bb7a964bd62a6cd7ab4fecec5270.js",
+    "precache-manifest.fc7cb500b30f1595b29b80b79ee3600d.js": "/bets-front/precache-manifest.fc7cb500b30f1595b29b80b79ee3600d.js",
     "service-worker.js": "/bets-front/service-worker.js",
-    "static/css/main.92195384.chunk.css.map": "/bets-front/static/css/main.92195384.chunk.css.map",
+    "static/css/main.690d6882.chunk.css.map": "/bets-front/static/css/main.690d6882.chunk.css.map",
     "static/js/2.5b92cb6e.chunk.js.LICENSE.txt": "/bets-front/static/js/2.5b92cb6e.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/bets-front/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.0c344ffd.js",
     "static/js/2.5b92cb6e.chunk.js",
-    "static/css/main.92195384.chunk.css",
-    "static/js/main.73b5d2c3.chunk.js"
+    "static/css/main.690d6882.chunk.css",
+    "static/js/main.b73915d1.chunk.js"
   ]
 }
