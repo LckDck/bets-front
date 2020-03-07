@@ -168,13 +168,14 @@ const App = () => {
     setFieldsWithError(errors)
   }
 
+  var os = require('os')
 
   const generateString = () => {
     var str = '';
     const keys = Object.keys(bets);
     keys.forEach(key => {
       if (str != '') {
-        str += '\n';
+        str += os.EOL;
       }
       str += ((key == 'Q' || key == 'BL') ? `${ key }-${ list[bets[key]].value }` : list[bets[key]].value);
     });
@@ -199,7 +200,7 @@ const App = () => {
   const btnClick = () => {
     checkDuplicates(bets);
     checkEmpty(bets);
-    copy(generateString());
+    copy(generateString(), {format: 'text/plain'});
   }
 
   return (
