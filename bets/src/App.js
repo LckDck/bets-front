@@ -133,7 +133,7 @@ import copy from 'copy-to-clipboard';
 // export default Menu;
 import Select from 'react-select';
 
-const fields = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Q", "BL"];
+const fields = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "BL", "Q"];
 const values = {};
 
 const App = () => {
