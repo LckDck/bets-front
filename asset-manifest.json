@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/bets-front/static/css/main.690d6882.chunk.css",
-    "main.js": "/bets-front/static/js/main.b62d8903.chunk.js",
-    "main.js.map": "/bets-front/static/js/main.b62d8903.chunk.js.map",
+    "main.js": "/bets-front/static/js/main.f82de836.chunk.js",
+    "main.js.map": "/bets-front/static/js/main.f82de836.chunk.js.map",
     "runtime-main.js": "/bets-front/static/js/runtime-main.0c344ffd.js",
     "runtime-main.js.map": "/bets-front/static/js/runtime-main.0c344ffd.js.map",
     "static/js/2.9f273ea9.chunk.js": "/bets-front/static/js/2.9f273ea9.chunk.js",
     "static/js/2.9f273ea9.chunk.js.map": "/bets-front/static/js/2.9f273ea9.chunk.js.map",
     "index.html": "/bets-front/index.html",
-    "precache-manifest.31621f349db03bc0a26d6f9388f763c4.js": "/bets-front/precache-manifest.31621f349db03bc0a26d6f9388f763c4.js",
+    "precache-manifest.9a647b449f3bcf810d9cfdd094a94bec.js": "/bets-front/precache-manifest.9a647b449f3bcf810d9cfdd094a94bec.js",
     "service-worker.js": "/bets-front/service-worker.js",
     "static/css/main.690d6882.chunk.css.map": "/bets-front/static/css/main.690d6882.chunk.css.map",
     "static/js/2.9f273ea9.chunk.js.LICENSE.txt": "/bets-front/static/js/2.9f273ea9.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.0c344ffd.js",
     "static/js/2.9f273ea9.chunk.js",
     "static/css/main.690d6882.chunk.css",
-    "static/js/main.b62d8903.chunk.js"
+    "static/js/main.f82de836.chunk.js"
   ]
 }
