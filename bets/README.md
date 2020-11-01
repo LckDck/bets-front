@@ -1,4 +1,17 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+TO DEPLOY TO GH-PAGES
+
+1. push your source code to master
+
+2. run
+`npm run-script build`
+
+3. copy your new build somewhere
+4. switch to gh-pages branch
+5. replace repo content with the content of the saved build folder
+6. push changes to gh-pages branch 
+
+
+
 
 ## Available Scripts
 
