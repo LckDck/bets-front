@@ -67,7 +67,7 @@ export const list =
         },
         {
             id: 13,
-            label: 'Yuki Tsunodal',
+            label: 'Yuki Tsunoda',
             value: 'Tsunoda'
         },
         {
