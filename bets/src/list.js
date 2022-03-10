@@ -2,43 +2,43 @@ export const list =
     [
         {
             id: 0,
-            label: 'Lewis Hamilton',
-            value: 'Hamilton'
-        },
-        {
-            id: 1,
-            label: 'Valtteri Bottas',
-            value: 'Bottas'
-        },
-        {
-            id: 2,
-            label: 'Sergio Perez',
-            value: 'Perez'
-        },
-        {
-            id: 3,
             label: 'Max Verstappen',
             value: 'Verstappen'
         },
         {
+            id: 1,
+            label: 'Sergio Perez',
+            value: 'Perez'
+        },
+        {
+            id: 2,
+            label: 'Lewis Hamilton',
+            value: 'Hamilton'
+        },
+        {
+            id: 3,
+            label: 'George Russell',
+            value: 'Russell'
+        },
+        {
             id: 4,
+            label: 'Charles Leclerc',
+            value: 'Leclerc'
+        },
+        {
+            id: 5,
+            label: 'Carlos Sainz',
+            value: 'Sainz'
+        },
+        {
+            id: 6,
             label: 'Daniel Ricciardo',
             value: 'Ricciardo'
         },
         {
-            id: 5,
+            id: 7,
             label: 'Lando Norris',
             value: 'Norris'
-        },
-        {
-            id: 6,
-            label: 'Sebastian Vettel',
-            value: 'Vettel'
-        },
-        {
-            id: 7,
-            label: 'Lance Stroll',
-            value: 'Stroll'
         },
         {
             id: 8,
@@ -52,52 +52,52 @@ export const list =
         },
         {
             id: 10,
-            label: 'Charles Leclerc',
-            value: 'Leclerc'
-        },
-        {
-            id: 11,
-            label: 'Carlos Sainz',
-            value: 'Sainz'
-        },
-        {
-            id: 12,
             label: 'Pierre Gasly',
             value: 'Gasly'
         },
         {
-            id: 13,
+            id: 11,
             label: 'Yuki Tsunoda',
             value: 'Tsunoda'
         },
         {
+            id: 12,
+            label: 'Sebastian Vettel',
+            value: 'Vettel'
+        },
+        {
+            id: 13,
+            label: 'Lance Stroll',
+            value: 'Stroll'
+        },
+        {
             id: 14,
-            label: 'Kimi Raikkonen',
-            value: 'Raikkonen'
+            label: 'Alex Albon',
+            value: 'Albon'
         },
         {
             id: 15,
-            label: 'Antonio Giovinazzi',
-            value: 'Giovinazzi'
+            label: 'Nicholas Latifi',
+            value: 'Latifi'
         },
         {
             id: 16,
-            label: 'Nikita Mazepin',
-            value: 'Mazepin'
+            label: 'Valtteri Bottas',
+            value: 'Bottas'
         },
         {
             id: 17,
+            label: 'Guanyu Zhou',
+            value: 'Zhou'
+        },
+        {
+            id: 18,
             label: 'Mick Schumacher',
             value: 'Schumacher'
         },
         {
-            id: 18,
-            label: 'George Russell',
-            value: 'Russell'
-        },
-        {
             id: 19,
-            label: 'Nicholas Latifi',
-            value: 'Latifi'
+            label: 'Kevin Magnussen',
+            value: 'Magnussen'
         }
     ];
