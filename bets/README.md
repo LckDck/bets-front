@@ -3,7 +3,7 @@ TO DEPLOY TO GH-PAGES
 1. push your source code to master
 
 2. run
-`npm run-script build`
+`npm run build`
 
 3. copy your new build somewhere
 4. switch to gh-pages branch
