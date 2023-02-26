@@ -1,23 +1,14 @@
 {
   "files": {
-    "main.css": "/bets-front/static/css/main.690d6882.chunk.css",
-    "main.js": "/bets-front/static/js/main.cafd5386.chunk.js",
-    "main.js.map": "/bets-front/static/js/main.cafd5386.chunk.js.map",
-    "runtime-main.js": "/bets-front/static/js/runtime-main.0c344ffd.js",
-    "runtime-main.js.map": "/bets-front/static/js/runtime-main.0c344ffd.js.map",
-    "static/js/2.9f273ea9.chunk.js": "/bets-front/static/js/2.9f273ea9.chunk.js",
-    "static/js/2.9f273ea9.chunk.js.map": "/bets-front/static/js/2.9f273ea9.chunk.js.map",
-    "index.html": "/bets-front/index.html",
-    "precache-manifest.738cde658e6fa09886990055deeb9b36.js": "/bets-front/precache-manifest.738cde658e6fa09886990055deeb9b36.js",
-    "service-worker.js": "/bets-front/service-worker.js",
-    "static/css/main.690d6882.chunk.css.map": "/bets-front/static/css/main.690d6882.chunk.css.map",
-    "static/js/2.9f273ea9.chunk.js.LICENSE.txt": "/bets-front/static/js/2.9f273ea9.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/bets-front/static/media/logo.5d5d9eef.svg"
+    "main.css": "/static/css/main.108ad836.css",
+    "main.js": "/static/js/main.83c878d9.js",
+    "static/media/logo.svg": "/static/media/logo.103b5fa18196d5665a7e12318285c916.svg",
+    "index.html": "/index.html",
+    "main.108ad836.css.map": "/static/css/main.108ad836.css.map",
+    "main.83c878d9.js.map": "/static/js/main.83c878d9.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.0c344ffd.js",
-    "static/js/2.9f273ea9.chunk.js",
-    "static/css/main.690d6882.chunk.css",
-    "static/js/main.cafd5386.chunk.js"
+    "static/css/main.108ad836.css",
+    "static/js/main.83c878d9.js"
   ]
 }
