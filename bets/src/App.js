@@ -47,7 +47,7 @@ const App = () => {
     var str = '';
     fields.forEach(key => {
       if (str != '') {
-        str += os.EOL;
+        str += "\n";
       }
       str += ((key == 'Q' || key == 'BL') ? `${ key }-${ list[bets[key]].value }` : list[bets[key]].value);
     });
