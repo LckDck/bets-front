@@ -12,92 +12,92 @@ export const list =
         },
         {
             id: 2,
-            label: 'Charles Leclerc',
-            value: 'Leclerc'
+            label: 'Lewis Hamilton',
+            value: 'Hamilton'
         },
         {
             id: 3,
-            label: 'Carlos Sainz',
-            value: 'Sainz'
-        },
-        {
-            id: 4,
-            label: 'Lewis Hamilton',
-            value: 'Hamilton'
-        },            
-        {
-            id: 5,
             label: 'George Russell',
             value: 'Russell'
         },
         {
+            id: 4,
+            label: 'Charles Leclerc',
+            value: 'Leclerc'
+        },            
+        {
+            id: 5,
+            label: 'Carlos Sainz',
+            value: 'Sainz'
+        },
+        {
             id: 6,
-            label: 'Esteban Ocon',
-            value: 'Ocon'
+            label: 'Lando Norris',
+            value: 'Norris'
         }, 
         {
             id: 7,
+            label: 'Oscar Piastri',
+            value: 'Piastri'
+        },
+        {
+            id: 8,
+            label: 'Fernando Alonso',
+            value: 'Alonso'
+        },                          
+        {
+            id: 9,
+            label: 'Lance Stroll',
+            value: 'Stroll'
+        }, 
+        {
+            id: 10,
+            label: 'Esteban Ocon',
+            value: 'Ocon'
+        },
+        {
+            id: 11,
             label: 'Pierre Gasly',
             value: 'Gasly'
         },
         {
-            id: 8,
-            label: 'Lando Norris',
-            value: 'Norris'
-        },                          
+            id: 12,
+            label: 'Alexander Albon',
+            value: 'Albon'
+        },
         {
-            id: 9,
-            label: 'Oscar Piastri',
-            value: 'Piastri'
+            id: 13,
+            label: 'Logan Sargeant',
+            value: 'Sargeant'
         }, 
         {
-            id: 10,
+            id: 14,
+            label: 'Yuki Tsunoda',
+            value: 'Tsunoda'
+        }, 
+        {
+            id: 15,
+            label: 'Daniel Ricciardo',
+            value: 'Ricciardo'
+        },
+        {
+            id: 16,
             label: 'Valtteri Bottas',
             value: 'Bottas'
         },
         {
-            id: 11,
+            id: 17,
             label: 'Guanyu Zhou',
             value: 'Zhou'
         },
         {
-            id: 12,
-            label: 'Lance Stroll',
-            value: 'Stroll'
-        },
-        {
-            id: 13,
-            label: 'Fernando Alonso',
-            value: 'Alonso'
-        }, 
-        {
-            id: 14,
+            id: 18,
             label: 'Kevin Magnussen',
             value: 'Magnussen'
-        }, 
-        {
-            id: 15,
-            label: 'Nico Hülkenberg',
-            value: 'Hülkenberg'
-        },
-        {
-            id: 16,
-            label: 'Nyck de Vries',
-            value: 'de Vries'
-        },
-        {
-            id: 17,
-            label: 'Yuki Tsunoda',
-            value: 'Tsunoda'
-        },
-        {
-            id: 18,
-            label: 'Alex Albon',
-            value: 'Albon'
         },
         {
             id: 19,
-            label: 'Logan Sargeant',
-            value: 'Sargeant'
+            label: 'Nico Hulkenberg',
+            value: 'Hulkenberg'
         }
     ];
