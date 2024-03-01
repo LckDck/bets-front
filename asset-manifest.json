@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/bets-front/static/css/main.108ad836.css",
-    "main.js": "/bets-front/static/js/main.e57f0dac.js",
+    "main.js": "/bets-front/static/js/main.0e02de4c.js",
     "static/media/logo.svg": "/bets-front/static/media/logo.103b5fa18196d5665a7e12318285c916.svg",
     "index.html": "/bets-front/index.html",
     "main.108ad836.css.map": "/bets-front/static/css/main.108ad836.css.map",
-    "main.e57f0dac.js.map": "/bets-front/static/js/main.e57f0dac.js.map"
+    "main.0e02de4c.js.map": "/bets-front/static/js/main.0e02de4c.js.map"
   },
   "entrypoints": [
     "static/css/main.108ad836.css",
-    "static/js/main.e57f0dac.js"
+    "static/js/main.0e02de4c.js"
   ]
 }
