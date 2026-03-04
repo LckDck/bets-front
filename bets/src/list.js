@@ -42,7 +42,7 @@ export const list =
         {
             id: 7,
             label: 'Lewis Hamilton',
-            value: 'Lewis Hamilton'
+            value: 'Hamilton'
         },
         {
             id: 8,
